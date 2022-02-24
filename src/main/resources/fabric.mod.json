@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "noqc-piston",
+  "version": "${version}",
+  "name": "Noqc Piston",
+  "description": "",
+  "authors": [
+    "Crec0"
+  ],
+  "contact": {
+    "repo": "https://github.com/Crec0/noqc-piston"
+  },
+  "license": "MIT",
+  "icon": "assets/noqc-piston/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "noqcpistons.NoQCPistons"
+    ]
+  },
+  "mixins": [
+    "noqc-piston.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
